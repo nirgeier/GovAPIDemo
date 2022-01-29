@@ -1,0 +1,10 @@
+<div class="row">
+    <span class="position-relative col-3">
+        <input type="text" name="searchField" class="form-control m-2 form-inline" placeholder="חיפוש">
+        <i class="fa fa-trash-alt clearSearch"></i>
+    </span>
+    <span class="position-relative col-3 m-3">
+        <span id="recordsCounter"><%= locals.data && data.result && data.result && data.result.records.length || '--' %></span>
+        &nbsp;תוצאות
+    </span>
+</div>

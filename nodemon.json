@@ -1,0 +1,11 @@
+{
+  "events": {
+    "start": "cls || clear"
+  },
+  "verbose": true,
+  "ignore": [
+    ".git",
+    "output"
+  ],
+  "delay": 5000
+}

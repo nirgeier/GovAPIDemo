@@ -1,0 +1,24 @@
+
+<%- include('./partials/searchBar', {data: data}) %>
+<hr/>
+<table class="table table-striped table-hover table-sm" data-search>
+  <thead>
+    <tr>
+      <% for (let index=1 ; index< headers.length; index++) { %>
+      <th><%- headers[index].id %></th>
+      <% } %>
+    </tr>
+  </thead>
+  <tbody>
+    <% for (let index in data.result.records) { %>
+    <tr>
+      <% for (let index1=1 ; index1< headers.length; index1++) { %>
+      <td><%- data.result.records[index][headers[index1].id] %></td>
+      <% } %>
+    </tr>
+
+    <% } %>
+    </tr>
+  </tbody>
+</table>
+

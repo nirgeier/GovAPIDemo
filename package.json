@@ -1,0 +1,12 @@
+{
+  "name": "GovAPI",
+  "version": "1.0.0",
+  "description": "- This Demo repository will extract data from https://data.gov.il/dataset/ \r - The code samples are written in nodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/bin/www"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

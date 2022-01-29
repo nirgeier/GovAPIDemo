@@ -1,0 +1,21 @@
+{
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "~/../public/style"
+        }
+    ],
+    "files.exclude": {
+        "**/.history": true,
+        "**/node_modules": true
+    },
+    "search.exclude": {
+        "**/.git/**": true,
+        "**/.history/**": true,
+        "**/node_modules/**": true
+    },
+    "search.useGlobalIgnoreFiles": true,
+    "git.ignoreLimitWarning": true,
+}
